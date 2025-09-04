@@ -1,13 +1,16 @@
-console.log("Bem vindo!");
-const prompt = require("prompt-sync")();
+//1. **Verificar maioridade:**
+//    1. Peça ao usuário uma idade.
+//    2. Use um `if-else` para verificar se ele é maior ou menor de idade.
+//    - Fluxograma.
 
-let nome = prompt("Digite o seu nome:");
-console.log(`Seu nome é: ${nome}`);
+const idade = Number(prompt("Digite sua idade: "));
 
-let idade = prompt("Digite sua idade: ");
-
-if(idade >=18){
+if (Number.isNaN(idade) || idade < 0) {
+    console.log("Idade inválida.")
+} else {
+    if(idade >=18){
     console.log("Você é maior de idade!")
 }else{
     console.log("Você não é maior de idade!")
+}
 }
