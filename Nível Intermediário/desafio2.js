@@ -20,3 +20,19 @@ if (Number.isNaN(n1) || Number.isNaN(n2) || Number.isNaN(n3)) {
         }
     }
 }
+
+///////////////////////////Resolução por variável///////////////////////////////////////////////
+
+//let maior = n1;
+
+//if (condition) {
+    
+//} else {
+//    if (n2 > maior) {
+//        maior = n2;
+//    }
+//    if (n3 > maior) {
+//        maior = n3;
+//    }
+//    alert("O maior número é: " + maior)
+//}
